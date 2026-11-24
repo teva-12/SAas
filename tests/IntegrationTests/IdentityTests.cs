@@ -1,3 +1,4 @@
+using IdentityError = Platform.Modules.Identity.Infrastructure.IdentityError;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
@@ -149,3 +150,4 @@ public class IdentityTests
         Assert.Empty(Roles.PermissionsFor("made-up-role"));
     }
 }
+
