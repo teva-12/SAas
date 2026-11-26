@@ -3,3 +3,7 @@ obj/
 TestResults/
 appsettings.Development.json
 .env
+
+.vs/
+*.user
+*.suo
